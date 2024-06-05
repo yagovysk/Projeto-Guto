@@ -6,7 +6,7 @@ import "./Home.css";
 
 export function Home() {
   return (
-    <section className="section-home">
+    <section id="home" className="section-home">
       <Carousel
         className="carousel-home"
         autoPlay

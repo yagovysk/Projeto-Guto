@@ -41,7 +41,7 @@ export function Menu() {
       className={`container-menu ${isMenuOpen ? "menu-open" : ""}`}
     >
       <div className="container-logo">
-        <img className="logo" src={logo} alt="logo Souza Black" />{" "}
+        <img className="logo" src={logo} alt="logo GT" />{" "}
       </div>
       <div
         className={`menu-toggle ${isScrolled ? "hidden" : ""}`}
@@ -75,16 +75,16 @@ export function Menu() {
         <li
           aria-label="item clicável, rolagem para a página Sobre Mim."
           className="item-list"
-          onClick={() => scrollToSection("sobre-mim")}
+          onClick={() => scrollToSection("servicos")}
         >
-          Sobre Mim
+          Serviços
         </li>
         <li
           aria-label="item clicável, rolagem para a página de Serviços."
           className="item-list"
-          onClick={() => scrollToSection("servicos")}
+          onClick={() => scrollToSection("sobre-mim")}
         >
-          Serviços
+          Sobre Mim
         </li>
         <li
           aria-label="item clicável, rolagem para a página de Galeria de fotos."
