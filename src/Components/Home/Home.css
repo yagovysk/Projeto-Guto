@@ -1,0 +1,124 @@
+.section-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 0;
+  border-top: solid 2px black;
+  background: linear-gradient(to top right, #000000, #310808, #690303);
+}
+.carousel-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.carousel-1 {
+  padding: 0;
+}
+.arrow {
+  border: none;
+  background-color: transparent;
+  color: rgb(249, 247, 247);
+  cursor: pointer;
+  padding: 15px 17px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.arrow-prev {
+  left: 0;
+}
+.arrow-icon {
+  font-size: 3rem;
+}
+.arrow-next {
+  right: 0;
+}
+.img-overlay {
+  position: relative;
+}
+.img-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Sombra preta com 50% de opacidade */
+  z-index: 1;
+}
+.img-carousel-1 {
+  position: relative;
+  width: 100%;
+  height: 45rem;
+}
+.article-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  gap: 2rem;
+}
+.article-home p {
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  color: #fff;
+  font-size: 2rem;
+  width: 80%;
+}
+.contact-button {
+  text-decoration: none;
+  background-color: rgb(122, 9, 9);
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  transition: background-color 0.4s, box-shadow, 0.4s;
+}
+.contact-button:hover {
+  background-color: rgb(160, 11, 11);
+  box-shadow: 0 0 20px 10px rgba(243, 0, 0, 0.973);
+}
+.article-home2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.article-home2 h2 {
+  font-family: "Changa", sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.article-home2 p {
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 80%;
+}
+.video-container {
+  width: 60%;
+  justify-content: center;
+  padding: 0;
+}
+.responsive-iframe {
+  width: 100%;
+  height: 25rem;
+
+  border-radius: 10px;
+
+  border: 0;
+}
