@@ -58,7 +58,7 @@ export function Home() {
         </div>
         <div className="carousel-2">
           <article className="article-home2">
-            <h2>Mude sua Mentalidade</h2>
+            <h2>O seu corpo muda quando a sua mentalidade muda</h2>
             <div className="video-container">
               <iframe
                 className="responsive-iframe"
