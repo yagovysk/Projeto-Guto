@@ -2,6 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { MdArrowBackIosNew, MdOutlineArrowForwardIos } from "react-icons/md";
 import fundo from "../../assets/fundo-guto.jpg";
+import mente from "../../assets/mente-magra.png";
 import "./Home.css";
 
 export function Home() {
@@ -46,13 +47,18 @@ export function Home() {
             <img className="img-carousel-1" src={fundo} alt="" />
           </div>
           <article className="article-home">
+            <img
+              className="img-mente"
+              src={mente}
+              alt="imagem da logo escrito mente magra, magra está esccrito em vermelho e tem uma nuvem ao lado esquerdo da logo"
+            />
             <p>
-              Transforme sua vida e alcance seus objetivos com um treinamento
-              personalizado. Vamos juntos superar limites e descobrir a sua
-              melhor versão!
+              + de <span>500</span> alunas transformadas com o protocolo de
+              emagrecimento segredos da mente magra. Descubra o caminho para um
+              emagrecimento definitivo.
             </p>
             <a className="contact-button" href="">
-              Agende uma aula grátis!
+              Faça um teste gratuito!
             </a>
           </article>
         </div>
