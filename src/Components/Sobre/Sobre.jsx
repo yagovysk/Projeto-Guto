@@ -13,7 +13,7 @@ export function Sobre() {
     AOS.refreshHard(); // Use refreshHard() instead of refresh()
   }, []);
   return (
-    <section className="section-sobre">
+    <section id="sobre-mim" className="section-sobre">
       <h2 data-aos="fade-up" data-aos-delay="100">
         Sobre Mim
       </h2>
