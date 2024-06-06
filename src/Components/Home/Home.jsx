@@ -1,11 +1,21 @@
+import React, { useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { MdArrowBackIosNew, MdOutlineArrowForwardIos } from "react-icons/md";
 import fundo from "../../assets/fundo-guto.jpg";
 import mente from "../../assets/mente-magra.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Home.css";
 
 export function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+    AOS.refreshHard(); // Use refreshHard() instead of refresh()
+  }, []);
   return (
     <section id="home" className="section-home">
       <Carousel
@@ -44,27 +54,40 @@ export function Home() {
       >
         <div className="carousel-1">
           <div className="img-overlay">
-            <img className="img-carousel-1" src={fundo} alt="" />
+            <img
+              className="img-carousel-1"
+              src={fundo}
+              alt="Imagem de Homem de costas sentado, segurando um peso em cada mão, com camisa vermelha"
+            />
           </div>
           <article className="article-home">
             <img
               className="img-mente"
               src={mente}
               alt="imagem da logo escrito mente magra, magra está esccrito em vermelho e tem uma nuvem ao lado esquerdo da logo"
+              data-aos="fade-up"
+              data-aos-delay="100"
             />
-            <p>
+            <p data-aos="fade-up" data-aos-delay="100">
               + de <span>500</span> alunas transformadas com o protocolo de
               emagrecimento segredos da mente magra. Descubra o caminho para um
               emagrecimento definitivo.
             </p>
-            <a className="contact-button" href="">
+            <a
+              className="contact-button"
+              href=""
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               Faça um teste gratuito!
             </a>
           </article>
         </div>
         <div className="carousel-2">
           <article className="article-home2">
-            <h2>O seu corpo muda quando a sua mentalidade muda</h2>
+            <h2 data-aos="fade-up" data-aos-delay="200">
+              O seu corpo muda quando a sua mentalidade muda
+            </h2>
             <div className="video-container">
               <iframe
                 className="responsive-iframe"

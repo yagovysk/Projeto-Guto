@@ -1,16 +1,28 @@
+import React, { useEffect } from "react";
 import { GiBrain } from "react-icons/gi";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { GiMuscleUp } from "react-icons/gi";
 import { FaRunning } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Services.css";
 
 export function Services() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+    AOS.refreshHard(); // Use refreshHard() instead of refresh()
+  }, []);
   return (
     <section className="section-services">
       <div className="container-services">
-        <h1>Conheça Nossos Serviços</h1>
+        <h1 id="servicos" data-aos="fade-up">
+          Conheça Nossos Serviços
+        </h1>
         <div className="container-cards">
-          <div className="card">
+          <div className="card" data-aos="fade-up">
             <GiBrain className="icon" />
             <article className="card-text">
               <h2>Emagrecimento com neurociência</h2>
@@ -23,7 +35,7 @@ export function Services() {
               </p>
             </article>
           </div>
-          <div className="card">
+          <div className="card" data-aos="fade-up" data-aos-delay="200">
             <GiWeightLiftingUp className="icon" />
             <article className="card-text">
               <h2>condicionamento físico</h2>
@@ -36,7 +48,7 @@ export function Services() {
               </p>
             </article>
           </div>
-          <div className="card">
+          <div className="card" data-aos="fade-up" data-aos-delay="400">
             <FaRunning className="icon" />
             <article className="card-text">
               <h2>corrida de rua </h2>
@@ -49,7 +61,7 @@ export function Services() {
               </p>
             </article>
           </div>
-          <div className="card">
+          <div className="card" data-aos="fade-up" data-aos-delay="600">
             <GiMuscleUp className="icon" />
             <article className="card-text">
               <h2>Hipertrofia muscular</h2>
