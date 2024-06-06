@@ -16,11 +16,9 @@ export function Services() {
     AOS.refreshHard(); // Use refreshHard() instead of refresh()
   }, []);
   return (
-    <section className="section-services">
+    <section id="servicos" className="section-services">
       <div className="container-services">
-        <h1 id="servicos" data-aos="fade-up">
-          Conheça Nossos Serviços
-        </h1>
+        <h1 data-aos="fade-up">Conheça Nossos Serviços</h1>
         <div className="container-cards">
           <div className="card" data-aos="fade-up">
             <GiBrain className="icon" />

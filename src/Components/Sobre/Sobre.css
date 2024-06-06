@@ -40,7 +40,7 @@
   }
   .container-sobre {
     flex-direction: column;
-    padding: 1rem;
+    padding: 1rem 2rem;
     gap: 1rem;
   }
   .container-sobre p {
