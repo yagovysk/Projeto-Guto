@@ -28,13 +28,11 @@ export function Antes() {
           <img src={img1} alt="" data-aos="fade-up" data-aos-delay="300" />
           <article className="antes-article">
             <h3 data-aos="fade-up" data-aos-delay="400">
-              Nome da aluna
+              Thalita
             </h3>
             <p data-aos="fade-up" data-aos-delay="400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              et ducimus suscipit sit molestiae! Pariatur aut dolorem
-              voluptatum. Deleniti dolorum cupiditate, voluptate aliquam
-              repudiandae tenetur perferendis expedita adipisci eos vel.
+              emagreceu 19kg após entra na mentoria segredos da mente magra , a
+              maior dificuldade que ela tinha era vencer o efeito sanfona.
             </p>
             <a href="">Saiba mais!</a>
           </article>
@@ -43,13 +41,13 @@ export function Antes() {
           <img src={img2} alt="" data-aos="fade-up" data-aos-delay="600" />
           <article className="antes-article">
             <h3 data-aos="fade-up" data-aos-delay="700">
-              Nome da aluna
+              Bruna Oliveira
             </h3>
             <p data-aos="fade-up" data-aos-delay="800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis consequatur, voluptates dolores, repudiandae alias cum
-              nihil aliquid magnam sunt ipsum labore minima hic iure ullam! Et
-              maxime provident veritatis nihil.
+              ganhou + de 30kg após a gestação e já tinha buscado ajuda em
+              vários profissionais , mais não sabia onde estava o problema que
+              não deixava ela ter resultado , até que ativou a mente magra e
+              eliminou 35kg.
             </p>
             <a href="">Saiba mais!</a>
           </article>
@@ -58,13 +56,12 @@ export function Antes() {
           <img src={img3} alt="" data-aos="fade-up" data-aos-delay="700" />
           <article className="antes-article">
             <h3 data-aos="fade-up" data-aos-delay="800">
-              Nome da aluna
+              Marcilene
             </h3>
             <p data-aos="fade-up" data-aos-delay="900">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              quos consequatur, dolore ut, sunt earum eius sapiente, id ea saepe
-              illo quidem libero ipsum! Veniam magni distinctio explicabo ut
-              ipsam.
+              eliminou 29kg após a reprogramação mental com o protocolo mente
+              magra , ganhou de volta a autoestima e a vontade de viver magra
+              definitivamente.
             </p>
             <a href="">Saiba mais!</a>
           </article>

@@ -36,7 +36,7 @@ export function Services() {
           <div className="card" data-aos="fade-up" data-aos-delay="200">
             <GiWeightLiftingUp className="icon" />
             <article className="card-text">
-              <h2>condicionamento físico</h2>
+              <h2>Treinamento Funcional</h2>
               <p>
                 Nosso serviço de condicionamento físico é projetado para
                 melhorar sua saúde, força e resistência de maneira eficiente e
@@ -49,7 +49,7 @@ export function Services() {
           <div className="card" data-aos="fade-up" data-aos-delay="400">
             <FaRunning className="icon" />
             <article className="card-text">
-              <h2>corrida de rua </h2>
+              <h2>corrida de rua (Iniciante)</h2>
               <p>
                 Nosso serviço de treinamento de corrida de rua é ideal para
                 corredores de todos os níveis, desde iniciantes até maratonistas
@@ -62,12 +62,12 @@ export function Services() {
           <div className="card" data-aos="fade-up" data-aos-delay="600">
             <GiMuscleUp className="icon" />
             <article className="card-text">
-              <h2>Hipertrofia muscular</h2>
+              <h2>Personal Trainer</h2>
               <p>
-                Nosso serviço de hipertrofia muscular é projetado para quem
-                deseja ganhar massa muscular de forma eficaz e segura. Com um
-                programa personalizado, ajudamos você a alcançar seus objetivos
-                de crescimento muscular e força.
+                Nosso serviço de Personal Trainer é projetado para quem deseja
+                ganhar massa muscular de forma eficaz e segura. Com um programa
+                personalizado, ajudamos você a alcançar seus objetivos de
+                crescimento muscular e força.
               </p>
             </article>
           </div>

@@ -3,6 +3,8 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { MdArrowBackIosNew, MdOutlineArrowForwardIos } from "react-icons/md";
 import perfil from "../../assets/perfil-anime.jpg";
+import perfil1 from "../../assets/perfil-1.jpg";
+import perfil2 from "../../assets/perfil-2.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Depoiments.css";
@@ -10,17 +12,17 @@ import "./Depoiments.css";
 const testimonials = [
   {
     id: 1,
-    name: "João Silva",
-    photo: perfil,
+    name: "Monica",
+    photo: perfil1,
     stars: 5,
-    text: "Este é um excelente serviço! Recomendo a todos.",
+    text: "Muito feliz por conseguir ter coragem de me pesar e poder confirmar que meu corpo vem mostrando os resultados. Pude confirmar não só nas medidas como também na balança e fiquei surpresa após o desafio de 21 dias, estava pesando 107 kg e hoje consegui chegar aos 98 kg, sei que ainda falta muito, mas, tenho consciência que estou no caminho certo, muito obrigada Professor Guto!",
   },
   {
     id: 2,
-    name: "Maria Santos",
-    photo: perfil,
+    name: "Ana Paula",
+    photo: perfil2,
     stars: 5,
-    text: "Estou muito satisfeito com o atendimento e a qualidade.",
+    text: "Gostaria de expressar minha gratidão, já consegui emagrecer 9 kg, eu estava com 74 kg e agora estou com 65 kg. Nem estou acreditando que já consegui isso tudo, muito obrigada pelo incentivo que você e sua equipe nos dá a cada dia.",
   },
   {
     id: 3,
