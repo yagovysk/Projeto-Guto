@@ -1,0 +1,68 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top right, #000000, #490f0f, #690303);
+  gap: 1rem;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 10px #ff073a, 0 0 20px #ff073a, 0 0 40px #ff073a;
+}
+.footer h3 {
+  font-family: "Changa", sans-serif;
+  color: #000000;
+  font-size: 1.6rem;
+}
+.footer h3 span {
+  color: #fff;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  color: #fff;
+}
+.footer-list li {
+  font-family: "Oswald", serif;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.footer-list li:hover {
+  transform: translateY(-5px);
+}
+.footer-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-article a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Oswald", serif;
+  display: flex;
+  transition: 0.5s ease;
+}
+.footer-article a:hover {
+  transform: translateY(-6px);
+}
+.tgv-button {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  display: flex;
+  transition: 0.5s ease;
+  display: flex;
+}
+.tgv-button span {
+  color: #ff073a;
+  display: flex;
+}
+.tgv-button:hover {
+  transform: translateY(-5px);
+}
+.insta-button {
+  text-decoration: none;
+}

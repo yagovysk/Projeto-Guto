@@ -70,8 +70,8 @@ export function Home() {
             />
             <p data-aos="fade-up" data-aos-delay="100">
               + de <span>500</span> alunas transformadas com o protocolo de
-              emagrecimento segredos da mente magra. Descubra o caminho para um
-              emagrecimento definitivo.
+              <span>emagrecimento</span>segredos da mente magra. Descubra o
+              caminho para um emagrecimento definitivo.
             </p>
             <a
               className="contact-button"

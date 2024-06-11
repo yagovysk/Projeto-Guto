@@ -28,8 +28,8 @@ export function Services() {
                 Nosso serviço de emagrecimento utiliza a neurociência para
                 oferecer uma abordagem inovadora e eficaz. Compreendemos como os
                 hábitos alimentares, emoções e padrões de pensamento influenciam
-                o peso, desenvolvendo estratégias personalizadas além das dietas
-                tradicionais.
+                o peso, desenvolvendo estratégias personalizadas além da
+                nutrição emocional e comportamental.
               </p>
             </article>
           </div>
