@@ -11,7 +11,7 @@
 .section-galeria h2 {
   color: #fff;
   font-family: "Changa", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .container-cards-antes {
   display: flex;
@@ -59,6 +59,7 @@
   padding: 1rem;
   font-size: 1.5rem;
   transition: font-size 0.8s ease;
+  font-family: "Changa", sans-serif;
 }
 .antes-article a:hover {
   font-size: 1.8rem;
