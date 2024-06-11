@@ -46,6 +46,7 @@
 
 .testimonial-stars {
   color: gold;
+  font-size: 2rem;
 }
 
 .testimonial-card h3 {
@@ -86,6 +87,9 @@
   }
   .testimonial-carousel {
     width: 80% !important;
+  }
+  .testimonial-stars {
+    font-size: 1.5rem;
   }
   .testimonial-photo {
     width: 5rem !important;
