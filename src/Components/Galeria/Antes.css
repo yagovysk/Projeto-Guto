@@ -68,20 +68,27 @@
 }
 @media (max-width: 768px) {
   .section-galeria {
-    padding: 2rem;
+    padding: 2rem 4rem;
   }
   .container-cards-antes {
     display: flex;
     flex-direction: column !important;
+    padding: 0 1rem;
     gap: 2rem;
   }
   .card-antes {
+    width: 60%;
     padding: 0 1rem;
+    height: 30rem !important;
+  }
+  .card-antes img {
+    width: 15rem !important;
   }
   .antes-article {
-    padding: 0 2rem;
+    padding: 0 4rem;
   }
   .antes-article p {
     font-size: 1rem;
+    width: 20rem;
   }
 }
