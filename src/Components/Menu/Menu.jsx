@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
-import logo from "../../assets/logo-teste.png";
+
 import "./Menu.css";
 
 export function Menu() {
@@ -40,9 +40,6 @@ export function Menu() {
       aria-label="Menu de Navegação da página"
       className={`container-menu ${isMenuOpen ? "menu-open" : ""}`}
     >
-      <div className="container-logo">
-        <img className="logo" src={logo} alt="logo GT" />{" "}
-      </div>
       <div
         className={`menu-toggle ${isScrolled ? "hidden" : ""}`}
         onClick={toggleMenu}

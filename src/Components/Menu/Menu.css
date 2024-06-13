@@ -36,16 +36,12 @@
 .container-menu:hover::after {
   height: 3px; /* Aumenta a altura para tornar o brilho mais visível no hover */
 }
-.container-logo {
-  display: flex;
-  width: 100%;
-  padding: 0 3rem;
-}
+
 .menu-list {
   list-style: none;
   padding: 0;
   display: flex;
-
+  justify-content: center;
   align-items: center;
   width: 100%;
   text-align: center;

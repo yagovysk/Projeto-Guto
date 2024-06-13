@@ -58,6 +58,9 @@ export function Footer() {
         >
           Desenvolvido por Togyro <span>Group</span> Victory
         </a>
+        <h3 className="title-direitos">
+          © Todos os direitos reservados a Gutenberg Sales Pereira
+        </h3>
       </article>
     </footer>
   );
