@@ -104,7 +104,7 @@ export function Home() {
             </p>
             <a
               className="contact-button"
-              href="https://wa.me/+556195111383?text=Olá, vim pelo site, gostaria de saber mais sobre o projeto mente magra."
+              href="https://wa.me/+556195111383?text=Olá, vim pelo site, gostaria de fazer um teste gratuito."
               target="blank"
             >
               Clique aqui para saber mais!
