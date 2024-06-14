@@ -7,7 +7,11 @@
   color: #fff;
   position: relative; /* Adicionando posição relativa para os pseudoelementos */
 }
+.logo-gt {
+  width: 6rem;
 
+  border-radius: 50%;
+}
 .container-menu::before,
 .container-menu::after {
   content: "";

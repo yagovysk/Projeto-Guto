@@ -75,7 +75,8 @@ export function Home() {
             </p>
             <a
               className="contact-button"
-              href=""
+              href="https://wa.me/+556195111383?text=Olá, vim pelo site, gostaria de fazer um teste gratuito."
+              target="blank"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -103,7 +104,8 @@ export function Home() {
             </p>
             <a
               className="contact-button"
-              href="https://wa.me/SEU_NUMERO_WHATSAPP"
+              href="https://wa.me/+556195111383?text=Olá, vim pelo site, gostaria de saber mais sobre o projeto mente magra."
+              target="blank"
             >
               Clique aqui para saber mais!
             </a>

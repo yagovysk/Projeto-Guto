@@ -30,10 +30,15 @@ export function Sobre() {
           data-aos-delay="300"
         >
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            at odio deserunt commodi quae voluptates? Officia, cupiditate modi
-            qui explicabo ratione ipsam eligendi excepturi magnam, consequatur
-            exercitationem reiciendis in. Sequi!
+            Meu nome e Gutenberg Sales, sou Personal e Coaching de Emagrecimento
+            Consciente especialista em analise comportamental do obeso, trabalho
+            na área da saúde desde 2013, atualmente focado no emagrecimento ,
+            através de técnicas de coaching usando ferramentas embasadas em
+            neurociência e neuroplasticidade e PNL. O treinamentos ajuda
+            mulheres a emagrecer resignificando sua forma de pensar através de
+            ferramentas especificas que trabalham diretamente nas crenças e nos
+            vícios e principalmente na área emocional de quem luta contra a
+            balança a muitos anos.
           </p>
         </article>
       </div>

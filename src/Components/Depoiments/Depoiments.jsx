@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { MdArrowBackIosNew, MdOutlineArrowForwardIos } from "react-icons/md";
-import perfil from "../../assets/perfil-anime.jpg";
 import perfil1 from "../../assets/perfil-1.jpg";
 import perfil2 from "../../assets/perfil-2.jpg";
+import perfil3 from "../../assets/perfil-3.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Depoiments.css";
@@ -26,10 +26,10 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Carlos Oliveira",
-    photo: perfil,
+    name: "Neura Santos",
+    photo: perfil3,
     stars: 5,
-    text: "Excelente experiência, superou minhas expectativas!",
+    text: "Finalmente consegui perder peso, perdi mais de 8 kg depois de muito esforço e dedicação que aprendir a ter junto ao Professor Guto. Sou grata por tudo, muito contente com os resultados e finalmente caber nas roupas que tanto gosto.",
   },
 ];
 
