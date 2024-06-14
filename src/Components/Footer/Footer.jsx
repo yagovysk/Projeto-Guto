@@ -1,4 +1,5 @@
 import { RiInstagramFill } from "react-icons/ri";
+import { IoLogoWhatsapp } from "react-icons/io";
 import "./Footer.css";
 
 export function Footer() {
@@ -42,13 +43,21 @@ export function Footer() {
         </ul>
       </nav>
       <article className="footer-article">
-        <a
-          className="insta-button"
-          href="https://instagram.com/"
-          target="blank"
-        >
-          <RiInstagramFill className="insta-icon" />
-        </a>
+        <div className="container-social">
+          <a
+            href="https://wa.me/+556195111383?text=Olá, vim pelo site."
+            className="insta-button"
+          >
+            <IoLogoWhatsapp className="insta-icon" />
+          </a>
+          <a
+            className="insta-button"
+            href="https://www.instagram.com/gutenbergsalesoficial/"
+            target="blank"
+          >
+            <RiInstagramFill className="insta-icon" />
+          </a>
+        </div>
 
         <a
           className="tgv-button"

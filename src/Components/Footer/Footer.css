@@ -72,6 +72,10 @@
   text-align: center;
   font-size: 1rem;
 }
+.container-social {
+  display: flex;
+  gap: 1rem;
+}
 @media (max-width: 768px) {
   .footer .title-direitos {
     font-size: 0.7rem;
