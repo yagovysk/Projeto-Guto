@@ -34,7 +34,12 @@ export function Antes() {
               emagreceu 19kg após entra na mentoria segredos da mente magra , a
               maior dificuldade que ela tinha era vencer o efeito sanfona.
             </p>
-            <a href="">Saiba mais!</a>
+            <a
+              href="https://www.youtube.com/@DIVASHIIT504QUEIMA21ACELERADA"
+              target="blank"
+            >
+              Saiba mais!
+            </a>
           </article>
         </div>
         <div className="card-antes" data-aos="fade-up" data-aos-delay="500">
@@ -49,7 +54,9 @@ export function Antes() {
               não deixava ela ter resultado , até que ativou a mente magra e
               eliminou 35kg.
             </p>
-            <a href="">Saiba mais!</a>
+            <a href="https://www.youtube.com/shorts/A5s2ql6KmLA" target="blank">
+              Saiba mais!
+            </a>
           </article>
         </div>
         <div className="card-antes" data-aos="fade-up" data-aos-delay="600">
@@ -63,7 +70,9 @@ export function Antes() {
               magra , ganhou de volta a autoestima e a vontade de viver magra
               definitivamente.
             </p>
-            <a href="">Saiba mais!</a>
+            <a href="https://www.youtube.com/shorts/78SEEJwZADY" target="blank">
+              Saiba mais!
+            </a>
           </article>
         </div>
       </div>
