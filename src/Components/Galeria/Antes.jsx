@@ -28,14 +28,14 @@ export function Antes() {
           <img src={img1} alt="" data-aos="fade-up" data-aos-delay="300" />
           <article className="antes-article">
             <h3 data-aos="fade-up" data-aos-delay="400">
-              Thalita
+              Talita
             </h3>
             <p data-aos="fade-up" data-aos-delay="400">
               emagreceu 19kg após entra na mentoria segredos da mente magra , a
               maior dificuldade que ela tinha era vencer o efeito sanfona.
             </p>
             <a
-              href="https://www.youtube.com/@DIVASHIIT504QUEIMA21ACELERADA"
+              href="https://www.youtube.com/watch?v=6DvvkP1mSaI"
               target="blank"
             >
               Saiba mais!
@@ -54,7 +54,10 @@ export function Antes() {
               não deixava ela ter resultado , até que ativou a mente magra e
               eliminou 35kg.
             </p>
-            <a href="https://www.youtube.com/shorts/A5s2ql6KmLA" target="blank">
+            <a
+              href="https://www.youtube.com/watch?v=MdKPJgftRe4"
+              target="blank"
+            >
               Saiba mais!
             </a>
           </article>
@@ -70,7 +73,10 @@ export function Antes() {
               magra , ganhou de volta a autoestima e a vontade de viver magra
               definitivamente.
             </p>
-            <a href="https://www.youtube.com/shorts/78SEEJwZADY" target="blank">
+            <a
+              href="https://www.youtube.com/watch?v=hBL9vOYQabY"
+              target="blank"
+            >
               Saiba mais!
             </a>
           </article>
