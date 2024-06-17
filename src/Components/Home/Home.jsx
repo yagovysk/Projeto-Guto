@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { MdArrowBackIosNew, MdOutlineArrowForwardIos } from "react-icons/md";
@@ -16,8 +17,38 @@ export function Home() {
     });
     AOS.refreshHard(); // Use refreshHard() instead of refresh()
   }, []);
+
   return (
     <section id="home" className="section-home">
+      <Helmet>
+        <title>
+          Guto Personal Trainer - Emagrecimento Definitivo, Perder Peso
+        </title>
+        <meta
+          name="description"
+          content="+ de 1000 alunas transformadas com o protocolo os segredos da mente magra. Conheça o método pensado em você que quer perder peso, consiga seu melhor resultado."
+        />
+        <meta
+          name="keywords"
+          content="Personal, Personal Trainer, segredos da mente magra, emagrecimento definitivo, perder peso, ficar magro, emagrecimento, emagrecer, perder peso"
+        />
+        <meta name="author" content="Yago Cerqueira Regis" />
+        <meta
+          property="og:title"
+          content="Guto Personal Trainer - Emagrecimento Definitivo"
+        />
+        <meta
+          property="og:description"
+          content="Mais de 1000 alunas transformadas com o protocolo os segredos da mente magra. Conheça o método pensado em você que quer perder peso, consiga seu melhor resultado."
+        />
+        <meta
+          property="og:image"
+          content={`${window.location.origin}/guto-img-teste.png`}
+        />
+        <meta property="og:url" content="https://garotinhasfitness.com.br/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <Carousel
         className="carousel-home"
         autoPlay
