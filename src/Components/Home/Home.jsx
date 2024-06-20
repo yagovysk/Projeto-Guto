@@ -21,9 +21,7 @@ export function Home() {
   return (
     <section id="home" className="section-home">
       <Helmet>
-        <title>
-          Guto Personal Trainer - Emagrecimento Definitivo, Perder Peso
-        </title>
+        <title>Guto Personal Trainer - Emagrecimento Definitivo.</title>
         <meta
           name="description"
           content="+ de 1000 alunas transformadas com o protocolo os segredos da mente magra. Conheça o método pensado em você que quer perder peso, consiga seu melhor resultado."
