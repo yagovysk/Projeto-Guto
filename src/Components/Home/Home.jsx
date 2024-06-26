@@ -121,7 +121,7 @@ export function Home() {
             <div className="video-container">
               <iframe
                 className="responsive-iframe"
-                src="https://www.youtube.com/embed/Ypp5OHLdq6k"
+                src="https://www.youtube.com/embed/YJOrn2fjwkc?start=36"
                 title="Vídeo Guto explicando a melhor maneira de perder peso"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
