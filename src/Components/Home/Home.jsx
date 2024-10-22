@@ -97,11 +97,11 @@ export function Home() {
               data-aos="fade-up"
               data-aos-delay="100"
             />
-            <p data-aos="fade-up" data-aos-delay="100">
+            <h1 data-aos="fade-up" data-aos-delay="100">
               + de <span>1000</span> alunas transformadas com o protocolo{" "}
               <span>Segredos</span> da mente magra. Diga adeus ao efeito
               sanfona.
-            </p>
+            </h1>
             <a
               className="contact-button"
               href="https://wa.me/+556195111383?text=Olá, vim pelo site, gostaria de fazer um teste gratuito."
@@ -115,9 +115,9 @@ export function Home() {
         </div>
         <div className="carousel-2">
           <article className="article-home2">
-            <h2 data-aos="fade-up" data-aos-delay="200">
+            <h1 data-aos="fade-up" data-aos-delay="200">
               O seu corpo muda quando a sua mentalidade muda
-            </h2>
+            </h1>
             <div className="video-container">
               <iframe
                 className="responsive-iframe"

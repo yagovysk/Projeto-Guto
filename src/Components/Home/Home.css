@@ -72,7 +72,7 @@
   width: 15rem !important;
   height: 5rem;
 }
-.article-home p {
+.article-home h1 {
   font-family: "Oswald", sans-serif;
   text-align: left;
   color: #fff;
@@ -105,7 +105,7 @@
   align-items: center;
   gap: 1rem;
 }
-.article-home2 h2 {
+.article-home2 h1 {
   font-family: "Changa", sans-serif;
   color: #fff;
   font-size: 2.5rem;
